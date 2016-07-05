@@ -12,6 +12,8 @@
 		F48211D31D2B05B3008187C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48211D11D2B05B3008187C4 /* Main.storyboard */; };
 		F48211D51D2B05B3008187C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48211D41D2B05B3008187C4 /* Assets.xcassets */; };
 		F48211D81D2B05B3008187C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48211D61D2B05B3008187C4 /* LaunchScreen.storyboard */; };
+		F48211E01D2BA586008187C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48211DF1D2BA586008187C4 /* Player.swift */; };
+		F48211E21D2BA799008187C4 /* PlayersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48211E11D2BA799008187C4 /* PlayersTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F48211D41D2B05B3008187C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48211D71D2B05B3008187C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48211D91D2B05B3008187C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48211DF1D2BA586008187C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F48211E11D2BA799008187C4 /* PlayersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				F48211CD1D2B05B3008187C4 /* AppDelegate.swift */,
+				F48211E11D2BA799008187C4 /* PlayersTableViewCell.swift */,
+				F48211DF1D2BA586008187C4 /* Player.swift */,
 				F48211CF1D2B05B3008187C4 /* ViewController.swift */,
 				F48211D11D2B05B3008187C4 /* Main.storyboard */,
 				F48211D41D2B05B3008187C4 /* Assets.xcassets */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48211E21D2BA799008187C4 /* PlayersTableViewCell.swift in Sources */,
 				F48211D01D2B05B3008187C4 /* ViewController.swift in Sources */,
 				F48211CE1D2B05B3008187C4 /* AppDelegate.swift in Sources */,
+				F48211E01D2BA586008187C4 /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
